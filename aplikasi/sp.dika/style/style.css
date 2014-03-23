@@ -1,0 +1,35 @@
+@CHARSET "ISO-8859-1";
+h1 {
+	font-family: arial;
+	font-style: italic;
+}
+h5 {
+	font-family: arial;
+	font-style: italic;
+}
+hr {
+	border: 1px red groove;
+}
+body {
+	font-family: arial;
+	font-size: 12px;
+}
+a {
+	text-decoration: none;
+	color: #000000;
+	border: 1px #ccc dotted;
+	padding: 4px;
+}
+a:HOVER {
+	color: maroon;
+	border: 1px red solid;
+}
+a:FOCUS {
+	background: red;
+	color: white;
+}
+#footer {
+	position:absolute;
+	top:600px;
+	left:1080px;
+}

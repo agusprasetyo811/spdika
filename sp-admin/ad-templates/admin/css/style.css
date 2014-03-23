@@ -1,0 +1,159 @@
+@charset "utf-8";
+/* CSS Document */
+#all{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+}
+#layout{
+	position:relative;
+	width:auto;
+	margin:auto;
+	border:1px solid #001100;
+}
+#body{
+	position:relative;
+	width:auto;
+	margin:auto;
+	border:1px solid #001100;
+	background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#9999CC));
+	background: -moz-linear-gradient(top, #ffffff, #ddd); 
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#9999CC'); 
+	-ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#9999CC');
+}
+#header{
+	position:relative;
+	width:auto;
+	height:50px;
+	border:1px solid #001100;
+}
+#menu{
+	position:relative;
+	width:auto;
+	border:1px solid #001100;
+}
+#menu-admin{
+	position:absolute;
+	width:auto;
+	left:80%;
+	margin-top:-40px;
+	padding:10px;
+	font-size:17px;
+}
+
+#menu ul li{
+	display:inline;
+	padding:8px;
+	border:1px #555555 solid;
+	background: -webkit-gradient(linear, left top, left bottom, from(#ff0000), to(#b80000));
+	background: -moz-linear-gradient(top, #ff0000, #b80000); 
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0000', endColorstr='#b80000'); 
+	-ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0000', endColorstr='#b80000');
+	color:#EEEEEE;
+}
+#menu ul li:hover{
+	display:inline;
+	padding:8px;
+	border:1px #555555 solid;
+	background: -webkit-gradient(linear, left top, left bottom, from(#ff0000), to(#b80000));
+	background: -moz-linear-gradient(top, #111111, #000); 
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0000', endColorstr='#b80000'); 
+	-ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0000', endColorstr='#b80000');
+	color:#ffffff;
+}
+
+#menu ul li a{
+	display:inline;
+	padding:8px;
+	color:#FFFFFF;
+	text-decoration:none;
+}
+#content{
+	position:relative;
+	width:auto;
+	min-height:350px;
+	border:1px solid #001100;
+	padding:10px;
+}
+.table{
+	border-collapse:collapse;
+	border-color:#CCCCCC;
+	background:#FFFFFF;
+}
+.table thead tr {
+	background: -webkit-gradient(linear, left top, left bottom, from(#ff0000), to(#b80000));
+	background: -moz-linear-gradient(top, #ffffff, #FF9900); 
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0000', endColorstr='#b80000'); 
+	-ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0000', endColorstr='#b80000');
+}
+.table thead tr td {
+	font-size:16px;
+	padding:5px;
+	text-shadow: 0 1px 1px #ccc;
+	font-weight:bold;
+	border-color:#CCCCCC;
+}
+.table tbody tr td {
+	padding:5px;
+	border-color:#CCCCCC;
+}
+.table tbody tr:hover {
+	background: -webkit-gradient(linear, left top, left bottom, from(#ff0000), to(#b80000));
+	background: -moz-linear-gradient(top, #ffffff, #ddd); 
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0000', endColorstr='#b80000'); 
+	-ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0000', endColorstr='#b80000');}
+
+#footer{
+	position:relative;
+	width:auto;
+	border:1px solid #001100;
+	padding:10px;
+}
+a{
+	text-decoration:none;
+	color:#000000;
+}
+a:hover{
+	color:#FF3300;
+}
+.button{
+	position:relative;
+	border:#AAAAAA 1px solid;
+	padding:5px;
+	background: -webkit-gradient(linear, left top, left bottom, from(#ff0000), to(#b80000));
+	background: -moz-linear-gradient(top, #ffffff, #ccc); 
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0000', endColorstr='#b80000'); 
+	-ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0000', endColorstr='#b80000');
+}
+.button-body{
+	position:relative;
+	border:#AAAAAA 1px solid;
+	padding:2px;
+	width:100px;
+	margin:5px;
+	background: -webkit-gradient(linear, left top, left bottom, from(#ff0000), to(#b80000));
+	background: -moz-linear-gradient(top, #ffffff, #ccc); 
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0000', endColorstr='#b80000'); 
+	-ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0000', endColorstr='#b80000');
+}
+h1{
+	color:#fff;
+	text-shadow: 0 2px 2px #000;
+	font-size:36px;
+}
+#warning{
+	color:#FF0000;
+	border:1px #FF0000 solid;
+	background:#FFFFCC;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	padding:8px;
+}
+#sukses{
+	color:#006600;
+	border:1px #00AA00 solid;
+	background:#CCFFCC;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	padding:8px;
+}
+

@@ -1,0 +1,10 @@
+--ika--
+kalender tgl lahir
+laporan pdf
+hasil pdf
+artikel
+
+--fina--
+hak akses setiap admin
+foto di artikel
+banner
